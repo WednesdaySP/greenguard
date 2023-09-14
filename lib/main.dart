@@ -16,7 +16,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'templet',
-      home: SellerPage(),
+      home: SellerPage(
+        productsList: [],
+      ),
     );
   }
 }
